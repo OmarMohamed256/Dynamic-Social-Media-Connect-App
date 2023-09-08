@@ -1,0 +1,2 @@
+D:\DatingApp2\Solution1\angularapp\obj\Debug\angularapp.esproj.SuggestedBindingRedirects.cache
+D:\DatingApp2\Solution1\angularapp\obj\Debug\angularapp.esproj.CoreCompileInputs.cache

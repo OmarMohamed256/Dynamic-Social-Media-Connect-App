@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.74-alpha">
+  <PropertyGroup>
+    <StartupCommand>npm start</StartupCommand>
+    <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
+    <!-- Command to run on project build -->
+    <BuildCommand>
+    </BuildCommand>
+    <!-- Command to create an optimized build of the project that's ready for publishing -->
+    <ProductionBuildCommand>npm run build</ProductionBuildCommand>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\angularapp</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\app\members\" />
+    <Folder Include="src\app\Errors\" />
+    <Folder Include="src\app\admin\" />
+    <Folder Include="src\app\modals\" />
+    <Folder Include="src\app\_directives\" />
+    <Folder Include="src\app\_resolvers\" />
+    <Folder Include="src\app\_forms\" />
+    <Folder Include="src\app\_guards\" />
+    <Folder Include="src\app\_services\" />
+    <Folder Include="ssl\" />
+  </ItemGroup>
+</Project>
